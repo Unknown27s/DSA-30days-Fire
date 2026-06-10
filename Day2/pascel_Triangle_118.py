@@ -15,4 +15,4 @@ for i in range(1,num1+1):   #Loop throught 1 to num1+1 element
 
 
 
-print(result)
+print(result[num1-1])
