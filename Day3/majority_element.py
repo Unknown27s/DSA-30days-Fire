@@ -16,4 +16,16 @@ for i in range(0,len(num)-1):
             continue
 
 
+#Another method to find the majority element in the list
+# freq = {}
+
+# for x in num:
+#     freq[x] = freq.get(x, 0) + 1
+
+# result = []
+
+# for key, count in freq.items():
+#     if count > n // 3:
+#         result.append(key)
+
 print(result)
